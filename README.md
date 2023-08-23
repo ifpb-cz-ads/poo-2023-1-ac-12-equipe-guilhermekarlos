@@ -4,7 +4,7 @@
 # 2) Qual a diferença entre JRE e JDK?
   O JRE (Java Runtime Environment) contém tudo aquilo que um usuário comum precisa para executar uma aplicação Java, já o JDK(Java Development Kit) é composto pelo JRE   e um conjunto de ferramentas úteis ao desenvolvedor Java.
 
-# 4)  Compile o programa desenvolvido no exercício anterior. A seguir apague o arquivo .class gerado e tente executar o programa. O que aconteceu?
+# 4) Compile o programa desenvolvido no exercício anterior. A seguir apague o arquivo .class gerado e tente executar o programa. O que aconteceu?
 Sem o arquivo .class, o Java não consegue encontrar a classe para executá-la, causando um erro.
 
 ```
@@ -12,3 +12,12 @@ PS C:\Users\guilh\OneDrive\Documentos\ADS IFPB\POO> java BMQuest3
 Erro: Não foi possível localizar nem carregar a classe principal BMQuest3
 Causada por: java.lang.ClassNotFoundException: BMQuest3
 ```
+
+# 5) Mude o nome do método “main” para “start”, compile e execute. O que aconteceu?
+Ocorre um erro, pois A JVM não consegue identificar a presença do "main" o que torna incapaz a execução.
+
+```
+error: can't find main(String[]) method in class: BMAtividade3
+```
+
+
